@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+=======
+language: java
+sudo: required
+
+services:
+	- docker
+
+before_install:
+	- docker build -t hsbawa83/hs-restfulservices -f dockerfile.dev .
+
+>>>>>>> f1b49e7ac4305bc97cdf8390c164d3613d78635c
